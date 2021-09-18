@@ -1,0 +1,32 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Traan",
+    "dateExported": "2021-09-18T07:20:41.229Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "d0fe2aff-94c0-43ab-964b-1002d8c7729e",
+            "name": "home",
+            "url": "http://localhost:5000/",
+            "method": "GET",
+            "modified": "2021-09-18T07:07:54.815Z",
+            "created": "2021-09-18T07:07:37.890Z",
+            "_id": "e7ba85b7-a70c-485a-9a54-a8241b93240e",
+            "params": [],
+            "tests": []
+        }
+    ]
+}
