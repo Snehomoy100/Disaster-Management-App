@@ -1,10 +1,10 @@
-import express from "express";
+import express from 'express';
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
+router.get('/', (req, res) => {
   return res.json({
-    message: "This is home route",
+    message: 'This is home route',
   });
 });
 
