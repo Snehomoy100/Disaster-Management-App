@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "data:import": "node ./seeder.js ",
+    "data:destroy": "node ./seeder.js -d "
   },
   "author": "Soumava Banerjee",
   "license": "ISC",

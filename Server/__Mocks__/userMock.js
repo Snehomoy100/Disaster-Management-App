@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 export const mockUsers = [
   {
@@ -6,7 +6,7 @@ export const mockUsers = [
     userName: 'Soumava21',
     email: 'soumava.rivu@gmail.com',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 7274567890,
+    adhaarNumber: 727456789023,
     phoneNumber: 8777724254,
     assignments: [],
     isAdmin: true,
@@ -20,7 +20,7 @@ export const mockUsers = [
     email: 'shubhamduttanovember@gmail.com',
     userName: 'ShubhamDutta21',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789023,
     assignments: [],
     phoneNumber: 9330715911,
     geometry: {
@@ -33,7 +33,7 @@ export const mockUsers = [
     email: 'frost.byte@gmail.com',
     userName: 'FrostByte420',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789023,
     assignments: [],
     phoneNumber: 8943125754,
     geometry: {
@@ -46,7 +46,7 @@ export const mockUsers = [
     email: 'flame.bit@gmail.com',
     userName: 'FlameBi8',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789032,
     assignments: [],
     phoneNumber: 7342000268,
     geometry: {
@@ -59,7 +59,7 @@ export const mockUsers = [
     email: 'flaminghearts.bit@gmail.com',
     userName: 'flameheart32',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789031,
     assignments: [],
     phoneNumber: 9830181429,
     geometry: {
@@ -72,7 +72,7 @@ export const mockUsers = [
     email: 'banerjeekau.bit@gmail.com',
     userName: 'kaustav56',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789030,
     assignments: [],
     phoneNumber: 8617786321,
     geometry: {
@@ -85,7 +85,7 @@ export const mockUsers = [
     email: 'chakrabortyrubi.bit@gmail.com',
     userName: 'ruby123',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789025,
     assignments: [],
     phoneNumber: 6290896232,
     geometry: {
@@ -98,7 +98,7 @@ export const mockUsers = [
     email: 'eulerrobert.bit@gmail.com',
     userName: 'Euler34',
     password: bcrypt.hashSync('frost1234', 10),
-    adhaarNumber: 1234567890,
+    adhaarNumber: 727456789024,
     assignments: [],
     phoneNumber: 8777785008,
     geometry: {

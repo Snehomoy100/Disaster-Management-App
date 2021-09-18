@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import nanoid from 'nanoid';
+import { nanoid } from 'nanoid';
 
 // Location schema for the user
 const GeoSchema = new mongoose.Schema({
