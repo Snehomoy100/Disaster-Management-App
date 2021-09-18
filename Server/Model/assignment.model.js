@@ -21,6 +21,12 @@ const AssignmentSchema = new mongoose.Schema(
       enum: ['UPCOMING', 'COMPLETED', 'ASSIGNED'],
       default: 'UPCOMING',
     },
+    supplies: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Supply',
+      },
+    ],
     image: {
       type: String,
     },

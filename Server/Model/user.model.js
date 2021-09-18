@@ -40,6 +40,12 @@ const UserSchema = new mongoose.Schema(
       minlength: 12,
       required: [true, 'Your aadhar cannot be blank'],
     },
+    assignments: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Assignment',
+      },
+    ],
     isAdmin: {
       type: Boolean,
       required: true,
