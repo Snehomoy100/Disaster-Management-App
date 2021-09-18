@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import nanoid from 'nanoid';
+import { nanoid } from 'nanoid';
 
 // Location schema for the user
 const GeoSchema = new mongoose.Schema({
@@ -21,6 +21,12 @@ const AssignmentSchema = new mongoose.Schema(
       enum: ['UPCOMING', 'COMPLETED', 'ASSIGNED'],
       default: 'UPCOMING',
     },
+    supplies: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Supply',
+      },
+    ],
     image: {
       type: String,
     },

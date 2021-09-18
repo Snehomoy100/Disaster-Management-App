@@ -11,6 +11,10 @@ const SupplySchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    unit: {
+      type: String,
+      default: 'units',
+    },
     batch: {
       type: String,
     },

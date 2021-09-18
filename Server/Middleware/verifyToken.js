@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import UserModel from '../models/userModel.js';
+import UserModel from '../Model/user.model.js';
 
 // verify with access token
 const authProtect = async (req, res, next) => {
